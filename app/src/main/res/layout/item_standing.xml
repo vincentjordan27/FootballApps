@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:id="@+id/tv_name_item_standing"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        tools:text="Manchester City"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        android:id="@+id/tv_played_item_standing"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        tools:text="300"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        android:id="@+id/tv_goalsf_item_standing"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        tools:text="100"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        android:id="@+id/tv_goala_item_standing"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        tools:text="100"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        android:id="@+id/tv_goald_item_standing"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        tools:text="100"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        android:id="@+id/tv_win_item_standing"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        tools:text="100"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        android:id="@+id/tv_draw_item_standing"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        tools:text="100"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        android:id="@+id/tv_lost_item_standing"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        tools:text="100"/>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="6dp"
+        android:id="@+id/tv_total_item_standing"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        tools:text="100"/>
+
+</LinearLayout>

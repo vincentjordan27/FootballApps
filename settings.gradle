@@ -1,0 +1,2 @@
+rootProject.name='KADE_SUB_2'
+include ':app'

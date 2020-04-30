@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dadbe3"
+    tools:context=".activity.DetailTeamActivity">
+
+    <ProgressBar
+        android:id="@+id/prog_team_detail"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/img_team_detail"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        tools:src="@drawable/english_premier_league"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_below="@id/img_team_detail"
+        android:textSize="20sp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:layout_margin="8dp"
+        android:id="@+id/name_team_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@android:color/black"
+        tools:text="Arsenal" />
+
+    <TextView
+        android:layout_below="@id/name_team_detail"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:id="@+id/year_team_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        tools:text="1970" />
+
+    <TextView
+        android:layout_below="@id/year_team_detail"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:id="@+id/stadium_team_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="8dp"
+        tools:text="Emirates Stadium" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_below="@id/stadium_team_detail"
+        app:cardCornerRadius="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:text="@string/league"/>
+
+            <View
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="10dp"
+                android:background="@android:color/black"
+                android:layout_width="70dp"
+                android:layout_height="2dp"
+                />
+
+            <TextView
+                android:id="@+id/league_team_detail"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@android:color/black"
+                tools:text="English Premier League"/>
+
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="16dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:text="@string/description"/>
+
+            <View
+                android:layout_marginTop="4dp"
+                android:layout_marginStart="10dp"
+                android:background="@android:color/black"
+                android:layout_width="100dp"
+                android:layout_height="2dp"
+                />
+
+
+
+                <TextView
+                    android:id="@+id/desc_team_detail"
+                    android:textStyle="bold"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:textSize="15sp"
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@android:color/black"
+                    tools:text="Arsenal Football Club is a professional football club based in Islington, London, England, that plays in the Premier League, the top flight of English football. The club has won 13 League titles, a record 13 FA Cups, 2 League Cups, 15 FA Community Shields, 1 League Centenary Trophy, 1 UEFA Cup Winners' Cup and 1 Inter-Cities Fairs Cup.\r\n\r\nArsenal was the first club from the South of England to join The Football League, in 1893, and they reached the First Division in 1904. Relegated only once, in 1913, they continue the longest streak in the top division, and have won the second-most top-flight matches in English football history. In the 1930s, Arsenal won five League Championships and two FA Cups, and another FA Cup and two Championships after the war. In 1970–71, they won their first League and FA Cup Double. Between 1989 and 2005, they won five League titles and five FA Cups, including two more Doubles. They completed the 20th century with the highest average league position"/>
+
+
+
+            <Button
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="16dp"
+                android:id="@+id/fav_team_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add to Favorite" />
+
+
+        </LinearLayout>
+        </ScrollView>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

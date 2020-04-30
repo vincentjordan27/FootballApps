@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">KADE_SUB_2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="next_match_fragment">Next Match</string>
+    <string name="prev_match_fragment">Prev Match</string>
+    <string name="postponed">Postponed</string>
+    <string name="not_found">Not Found :((</string>
+    <string name="notdata">No Data</string>
+    <string name="nodata">No Data</string>
+    <string name="title">Football Apps</string>
+    <string name="img_league">img_league</string>
+    <string name="vs">VS</string>
+    <string name="goals">Goals</string>
+    <string name="lineup">Lineup</string>
+    <string name="goalkeeper">GoalKeeper</string>
+    <string name="defense">Defense</string>
+    <string name="midfield">Midfield</string>
+    <string name="foward">Foward</string>
+    <string name="substitutes">Substitutes</string>
+    <string name="add_to_favorite">Add to Favorite</string>
+    <string name="del">Deleted from Favorite</string>
+    <string name="add">Add to Favorite</string>
+
+
+    <string-array name="league_name">
+        <item>English Premier League</item>
+        <item>French Ligue 1</item>
+        <item>German Bundesliga</item>
+        <item>Italian Serie A</item>
+        <item>Spanish La Liga</item>
+    </string-array>
+
+    <string-array name="id_league">
+        <item>4328</item>
+        <item>4334</item>
+        <item>4331</item>
+        <item>4332</item>
+        <item>4335</item>
+    </string-array>
+
+    <array name="league_image">
+        <item>@drawable/english_premier_league</item>
+        <item>@drawable/french_ligue_1</item>
+        <item>@drawable/german_bundesliga</item>
+        <item>@drawable/italian_serie_a</item>
+        <item>@drawable/spanish_la_liga</item>
+
+    </array>
+
+    <string-array name="league_desc">
+        <item>The Premier League (often referred to as the English Premier League (EPL) outside England), is the top level of the English football league system.
+        </item>
+        <item>
+            Ligue 1 (League 1, formerly known as Division 1), is the French professional league for association football clubs. </item>
+        <item>
+            The Fußball-Bundesliga (English: Football Federal League), commonly known as the Bundesliga, is a professional association football league in Germany.
+        </item>
+        <item>
+            Serie A, also called Serie A TIM due to sponsorship by Telecom Italia, is a professional league competition for football clubs located at the top of the Italian football league system
+        </item>
+        <item>
+            The Primera División, commonly known as La Liga and as La Liga Santander for sponsorship reasons, is the top professional association football division of the Spanish football league system.
+        </item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="league">League</string>
+    <string name="description">Description</string>
+    <string name="favorite">Favorite</string>
+    <string name="search_match">Search Match</string>
+    <string name="search_team">Search Team</string>
+
+</resources>
