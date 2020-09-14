@@ -1,3 +1,3 @@
 # FootballApps
  
-This Repository is kotlin code for Android Football Apps
+This Repository is Kotlin code for Android Football Apps using data from TheSportDb API
